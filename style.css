@@ -87,9 +87,17 @@ hr{
   grid-template-columns: repeat(3,1fr);
   column-gap: 24px;
 }
+.width{
+  background-color: #FFFFFF;
+  width: 252.42px;
+  border:3px solid red;
+ 
+
+}
 .course .course-banner img{
   width: 224px;
   height: 104px;
+
 }
 
 .course-info{
