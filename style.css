@@ -79,3 +79,10 @@ hr{
   font-size: 16px;
   color: #562EFF;
 }
+/* --------------------------------
+         courses style
+--------------------------------------*/
+.course .course-banner img{
+  width: 224px;
+  height: 104px;
+}
