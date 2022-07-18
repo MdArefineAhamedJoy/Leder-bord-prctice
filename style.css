@@ -87,13 +87,9 @@ hr{
   grid-template-columns: repeat(3,1fr);
   column-gap: 24px;
 }
-.width{
-  background-color: #FFFFFF;
-  width: 252.42px;
-  border:3px solid red;
  
 
-}
+
 .course .course-banner img{
   width: 224px;
   height: 104px;
@@ -113,4 +109,39 @@ hr{
 }
 .fa-star.empty{
   color:#A2A2A2;
+}
+/* -------------------------------
+         media quari
+         mobile divice            
+-----------------------------------*/
+
+@media only screen and (max-width:688px) {
+  .container{
+    width:100%;
+  }
+  .players,.blogs,.courses{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .player,.blog ,.course{
+    flex-direction: column;
+  }
+
+}
+
+
+/* 
+
+                      tablate divice            
+
+*/
+@media only screen and (min-width:688px) and (max-width:988px){
+  .container{
+    width: 100%;
+  }
+  .players,.courses{
+    grid-template-columns: repeat(2,1fr);
+ }
+ .blogs{
+  grid-template-columns: repeat(1,1fr);
+ }
 }
